@@ -1,7 +1,7 @@
 {
   "root": true,
   "api": {
-    "projectId": "kutp3su7",
+    "projectId": "HEY YOU YA YOU FILL YOUR ID IN HERE",
     "dataset": "production"
   },
   "project": {
@@ -12,8 +12,7 @@
     "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool",
-    "@sanity/google-maps-input"
+    "@sanity/desk-tool"
   ],
   "env": {
     "development": {
@@ -26,6 +25,10 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./sidebar.js"
     }
   ]
 }
