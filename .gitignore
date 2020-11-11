@@ -2,7 +2,7 @@
 .vscode/
 
 # dependencies
-/node_modules
+sanity/node_modules
 
 # misc
 .DS_Store
